@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/back_icon"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="Back"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID (Ex: STU001)"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Student"
+        android:layout_marginTop="32dp" />
+</LinearLayout>
